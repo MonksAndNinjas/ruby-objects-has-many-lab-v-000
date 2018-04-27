@@ -7,7 +7,7 @@ class Post
   end
 
   def author_name
-    self.author.title
+    tile.author
   end
 
 end
