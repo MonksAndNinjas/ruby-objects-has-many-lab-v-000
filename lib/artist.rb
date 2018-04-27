@@ -3,7 +3,7 @@ class Artist
   attr_accessor :name
 
   def initialized(name)
-    @name = name
+    self.name = name
     @name
   end
 
