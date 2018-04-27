@@ -30,8 +30,4 @@ class Author
     @@post_count
   end
 
-  def author_name
-    post.author = @name
-  end
-
 end
